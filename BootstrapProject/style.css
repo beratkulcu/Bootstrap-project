@@ -1,0 +1,86 @@
+.navbar-brand{
+    letter-spacing: 2px;
+}
+.navbar-brand::first-letter{
+    font-size: 25px;
+}
+
+/* anasyafa baslangıc item */
+
+.carousel-item img{
+    height: 350px;
+}
+
+.card{
+    position: relative;
+
+}
+.card .btn{
+    display: block;
+}
+
+.card .spor{
+    background-color: green;
+    position: absolute;
+    right: 0;
+    color: white;
+    padding: 6px;
+    font-weight: bolder;
+}
+
+.card .sondakika{
+    background-color: red;
+    position: absolute;
+    right: 0;
+    color: white;
+    padding: 6px;
+    font-weight: bolder;
+}
+#two .card{
+    width: 25%;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 15px 15px 8px 8px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+@media(max-width:768px){
+    #two .card{
+        width: 100%;
+    }
+    .card:hover{
+        transform: none;
+        transition: none;
+        z-index: none;
+        box-shadow: none;
+        border-radius: none ;
+    }
+}
+
+.spor{
+    margin: 5px;
+    letter-spacing: 3px;
+    box-shadow: 6px 6px 3px grey;
+}
+
+.sd{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+    padding: 8px;
+}
+.banner .kaydırma{
+    width: 100%;
+}
